@@ -1,0 +1,549 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+header{
+    
+    height: 100vh;
+    background-image:linear-gradient(rgba(2, 1, 1, 0.64)), url(14.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+@media screen  and (min-width: 600px){
+    header{
+        width: 100%;
+        
+        
+     
+    
+}
+    header h1{
+        font-size: 20px;
+        padding: 10px;
+    }
+    nav h1{
+        font-size: 30px;
+        padding: 20px;
+    }
+    nav ul li{
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+nav img{
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+   
+
+
+}
+nav{
+    color:#fff;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    padding: 20px;
+    color:pink;
+    font-size: 27px;
+    font-style: italic;
+    transition: 0.3s;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    
+    padding-inline-start: 30px;
+}
+nav ul li a{
+    color:#fff;
+    text-align: none;
+    padding:6px;
+    margin: 10px 5px;
+    background: rgba(255, 192, 203, 0.868);
+    border-radius:  40px;
+    text-decoration: none;
+    transition: 1s;
+   
+}
+nav ul li a:hover{
+    background: white;
+    color: #000;
+}
+.leader{
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+    width: 1000px;
+    text-align: center;
+}
+
+
+.maner{
+    padding-left: 90px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.maner h1{
+    font-size: 43px;
+    font-style: italic;
+    color:#f395a4;
+    margin-bottom: 30px;
+}
+.maner p{
+    font-size: 17px;
+    color:#fff;
+    margin-bottom: 20px;
+    padding: 4px;
+  
+}
+.button button{
+    border:none;
+    border:1px solid #ccc;
+    background: transparent;
+    padding:10px 12px;
+    color:#fff;
+    margin: 20px;
+    border-radius: 50px;
+}
+.button button:hover{
+    background: #fff;
+    color:rgb(244, 146, 163)
+}
+.button .narda{
+    background: hwb(350 64% 8%);
+}
+.manner{
+    padding: 7px;
+    width: 100%;
+  
+
+}
+.yaray{
+    display: flex;
+     justify-content: center;
+     text-align: center;
+    
+
+    
+    align-items: center;
+}
+.hamda{
+   display: flex;
+   padding: 30px;
+}
+
+.hamda i{
+     
+    border-radius: 50%;
+    color: pink;
+  
+ 
+}
+.aboutus{
+    margin-top: 20px;
+    background: rgba(255, 192, 203, 0.503);
+    width: 100%;
+    height: 100%;
+}
+.hee{
+   
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    text-shadow: 10px 10px 8px rgba(0,0,0,0.3);
+
+}
+.naana {
+    background-color: #fff;
+    width: 300px;
+    min-height: 300px;
+    border-radius: 5px 6px;
+    margin: 10px 5px;
+    flex-direction: column;
+    text-align: center;
+    
+    display: flex;
+  
+    justify-content: center;
+
+}
+.naana img{
+    width: 50px;
+    border-radius: 40px;
+    margin-left: 40%;
+   
+}
+
+.ui{
+    margin: 20px;
+}
+.ui a{
+    border:none;
+    border-radius: 60px;
+    border: 1px solid #fff;
+    color:#fff;
+    background: pink;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: 1s;
+    
+  
+}
+.ui a:hover{
+    color:#000;
+}
+.ilen i{
+    padding: 10px 12px;
+    color: rgba(0, 0, 255, 0.546);
+    transition: 1.5s
+    
+}
+.ilen i:hover{
+    color:#000;
+}
+.yourmom{
+    margin-top: 80px;
+    width: 100%;
+    height: 100%;
+    background: rgba(175, 238, 238, 0.35);
+   
+  
+
+}
+.tartan{
+    justify-content: space-between;
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+     
+  
+}
+.hadarowi{
+    width: 300px;
+    min-height: 120px;
+    background: #fff;
+    justify-content: center;
+    padding-top: 50px;
+    text-align: center;
+    flex-direction: column;
+  
+    border-radius: 20px;
+     box-shadow: 10px 10px 7px rgba(0,0,0,0.3);
+   
+    
+    margin: 10px 3px;
+    
+
+}
+.hadarowi img{
+     width: 200px;
+     border-radius: 20px;
+}
+.hadarowi p{
+    font-size: 17px;
+    padding: 6px;
+    color:#000;
+    
+   
+}
+.helin button{
+    border: none;
+    border: 1px solide #f395a4;
+    color: #000;
+    margin: 40px;
+    padding: 10px 14px;
+    background: pink;
+    border-radius: 20px;
+    transition: 2s;
+
+
+}
+.helin button:hover{
+    color:#fff;
+    background: black;
+}
+.xulasho{
+    background: #f395a59a;
+    width: 100%;
+    height: 900px;
+  
+}
+.geela{
+    background: url(3.jpg)no-repeat left;
+  
+    padding: 100px;
+    padding-left: 70px;
+    overflow: hidden;
+  
+   
+   
+    
+}
+.ur{
+    width: 55%;
+    padding: 140px 60px;
+    background: #fff;
+    border-radius: 20px;
+    margin:  90px 20px;
+    box-shadow: 10px 10px 9px rgba(7,9,30,0.7);
+    float: right;
+    overflow: hidden;
+    
+
+
+}
+.ur h4{
+    color: #000;
+    font-size: 23px;
+    text-decoration: underline;
+    text-decoration-color: pink;
+   
+
+}
+.ur p{
+    color:#000;
+    font-size: 16px;
+    padding: 20px;
+}
+.xasan {
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.xasan button{
+    padding:10px 12px;
+    border-radius: 20px;
+    background: #000;
+    color:#fff;
+
+
+}
+.icbea{
+     margin-left: 30%;
+    
+}
+.icbea i{
+    color: rgba(0, 0, 255, 0.329);
+    font-size: 30px;
+    
+}
+.utante{
+    
+    width: 100%;
+    height: 150px;
+     background: rgba(175, 238, 238, 0.35);
+     justify-content: center;
+     display: flex;
+
+   
+}
+.horor{
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-left: 30px;
+    text-align: center;
+    margin: 20px;
+
+     
+   
+}
+.horor img{
+    width: 30px;
+    border-radius: 50%;
+}
+.fa-solid {
+    color:rgba(255, 255, 0, 0.531)
+}
+.yanyur{
+    width: 100%;
+    height: 400px;
+    justify-content: space-between;
+
+    display: flex;
+}
+.munstas{
+    justify-content: space-between;
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    padding: 100px;
+    margin: 30px;
+     box-shadow: 10px 10px 8px rgba(7,9,30,0.7);
+}
+.yurmad{
+    margin: 30px;
+   
+    
+}
+.yurmad h2{
+    font-size: 32px;
+    color:#f395a4;
+    font-style: italic;
+}
+.yurmad p{
+    font-size: 19px;
+    color:#000;
+}
+.bulshowi img{
+    width: 150%;
+ 
+    margin-left: 50%;
+    border-radius: 20px;
+}
+.uur{
+    text-align: center;
+    justify-content: center;
+    padding:30px;
+}
+.uur button{
+    border: none;
+    border-radius: 30px;
+    background: #000;
+    padding: 10px 12px;
+    color:#fff;
+}
+.contactline{
+    width: 100%;
+    background: pink;
+    height: 570px;
+}
+.manerline{
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+   
+}
+.yaryar img{
+    height: 90%;
+
+}
+.box{
+ margin-right: 20%;
+ padding-top: 20px;
+}
+.input{
+    width: 300px;
+    height: 400px;
+    padding: 50px;
+    border-radius: 20px;
+    background: #fff;
+  
+}
+.input{
+    margin: 30px;
+}
+.input input{
+    border:none;
+    outline: none;
+    font-size: 19px;
+    padding: 10px;
+  
+
+}
+.input h2{
+    color: blue;
+    justify-content: center;
+    text-align: center;
+    padding:10px;
+}
+.haarar{
+    padding: 18px;
+   
+}
+.haarar button{
+   width: 200px;
+   justify-content: center;
+ padding-right: 20px;
+ border: none;
+ border: 1px solid #000;
+ background: red;
+ padding: 10px 13px;
+ border-radius: 20px;
+ color: #fff;
+
+}
+.goole{
+    text-align: center;
+    padding: 10px;
+  
+}
+.goole i{
+   margin: 3px 7px;
+   color: rgb(255, 221, 0);
+ 
+
+}
+.goole i{
+    text-decoration: underline;
+}
+.fa-brands fa-facebook-f{
+    color:blue;
+}
+
+.fa-brands {
+    font-size: 30px;
+ 
+   
+}
+.fa-solid{
+    font-size: 30px;
+}
+input a{
+    margin: 2px;
+
+}
+.stmit{
+    text-align: center;
+    margin: 20px;
+}
+.stmit a{
+    font-size: 20px;
+    padding:12px 16px;
+
+    
+}
+.stmit .qalad{
+    margin:20px;
+    padding:12px;
+    border:20px;
+}
+#footer{
+    width: 100%;
+    height: 200px;
+    background: rgba(175, 238, 238, 0.35);
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.laster{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-more{
+    margin: 70px;
+   
+}
